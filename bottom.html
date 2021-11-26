@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Zen+Kurenaido&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-    <meta name="description" content= "Blusas, camisas y remeras con telas frescas veraniegas que son tendencia">
-    <meta name="keywords" content="ropa, prêt-à-porter​, moda, fashion, remeras, camisas, chaquetas, tendencias">
+    <link rel="stylesheet" href="css/destino.css">
+    <meta name="description" content="Pantalones, shorts, vestidos y faldas con telas frescas veraniegas que son tendencia">
+    <meta name="keywords" content="ropa, prêt-à-porter​, moda, vestidos, shorts, polleras, faldas, pantalones">
     <title>FASHIONISTA</title>
     <div>
-        <h1>FASHIONISTA | CAMISAS - REMERAS - CHAQUETAS</h1>
+         <!--Acá empieza código para aplicar SASS-->
+        <h1>FASHIONISTA | PANTALONES - POLLERAS - VESTIDOS</h1>
     </div>
 </head>
 
@@ -33,48 +34,40 @@
         </nav>
 
     </div>
-    <div class="kenburns-top">
-        <img src="img/background-menu.png" alt="background-menu" height="300">
-    </div>   
-    <div class="item1">
-       <h2 >CAMISAS | REMERAS | CHAQUETAS</h2> 
-    </div>
-    <div class="grid-container">
-        <p class="item2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
-            eos sed culpa ullam exercitationem neque! Accusantium nulla fugiat temporibus, facere aut autem <br>
-            numquam saepe, fugit praesentium reprehenderit aperiam.</p>
-        <div class="item3">
-            <img src="img/clothes5.jpeg" alt="camisa1" height="500px">
-        </div>
-        <div class="item4"> 
-            <img src="img/clothes4.jpeg" alt="camisa2" height="500px">
-        </div>
-            
-    </div>
-
-    <div class="grid-container">
-        <p class="item2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
-            eos sed culpa ullam exercitationem neque! Accusantium nulla fugiat temporibus, facere aut autem <br>
-            numquam saepe, fugit praesentium reprehenderit aperiam.</p>
-        <div class="item3">
-            <img src="img/clothes6.jpeg" alt="camisa3" height="500px">
-        </div>
-        <div class="item4">
-            <img src="img/clothes3.jpeg" alt="camisa4" height="500px">
-        </div>
-        
-    </div>
     <div>
-        <h2 class="item1">TABLA DE MEDIDAS</h2>
+        <h2>PANTALONES | POLLERAS | VESTIDOS</h2>
     </div>
-    <div class="grid-container">
-        <p class="item2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
+    
+    <section>
+        <article class="flex-container">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
             eos sed culpa ullam exercitationem neque! Accusantium nulla fugiat temporibus, facere aut autem <br>
             numquam saepe, fugit praesentium reprehenderit aperiam.</p>
-        <div class="item3">
-            <img src="img/SIZECHART.jpg" alt="tablademedidas" height="300">
-        </div>
-            
+        <img src="img/clothes7.jpeg" alt="pollera1" height="500px">
+        <img src="img/clothes8.jpeg" alt="pollera2" height="500px">
+        </article>
+        
+    </section>
+
+    <section>
+        <article class="flex-container">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
+            eos sed culpa ullam exercitationem neque! Accusantium nulla fugiat temporibus, facere aut autem <br>
+            numquam saepe, fugit praesentium reprehenderit aperiam.</p>
+        <img src="img/clothes9.jpeg" alt="pant1" height="500px">
+        <img src="img/clothes10.jpeg" alt="pant2" height="500px">
+        </article>
+        
+    </section>
+
+    <div>
+        <h2>TABLA DE MEDIDAS</h2>
+    </div>
+    <div class="flex-container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum aperiam, <br>
+            eos sed culpa ullam exercitationem neque! Accusantium nulla fugiat temporibus, facere aut autem <br>
+            numquam saepe, fugit praesentium reprehenderit aperiam.</p>
+        <img src="img/SIZECHART.jpg" alt="tablademedidas" height="300">
 
     </div>
     <!-- Acá va la tabla de medidas para no usar una imagen -->
@@ -121,6 +114,7 @@
                 <td>106</td>
             </tr>
     </section>
+     <!-- Acá va un formulario para elegir prenda -->
     <div>
         <h3>ELEGÍ TU PRENDA</h3>
         <label for="city">Prenda</label>
@@ -136,13 +130,12 @@
         </select>
             <input type="submit" value="Submit">
         <input type="reset">
-        
     
     </div>
-
-   <!-- PROBLEMA: SACO EL FOOTER PORQUE SE MONTA POR ENCIMA DEL FORMULARIO -->
+    
+    <!-- PROBLEMA: SACO EL FOOTER PORQUE SE MONTA POR ENCIMA DEL FORMULARIO -->
+        
 
 </body>
-
 
 </html>
