@@ -1,0 +1,19 @@
+/* APLICACIÓN DE SEO AL PROYECTO */
+
+1- Se agregó keywords en todas las páginas.
+2- Se agregó meta descripciones en todas la páginas.
+3- Se agregó un título específico a cada página.
+4- Etiquetas alt a cada imágen.
+5- Organización del sitio web de manera clara y prolija.
+6- La comunicación entre las distintas páginas es clara y posible, teniendo una página de inicio que además obra de raíz.
+7- Sitio responsive.
+8- Se ordenó jerarquicamente los encabezados hx.
+9- El proyecto se entrega de forma ordenada, sin mezclar ni agregar archivos inutilizables (imágenes, estilos, 
+paginas secundarias; dentro de subcarpetas). Estructura simple de directorios.
+10- Se eliminó el video del home para evitar ocupar espacio.
+
+/* CAMBIOS A REALIZAR A FUTURO */
+
+1- Agregar textos claros, borrar los Lorem.
+2- Agregar enlaces a redes sociales.
+3- Optimizar y comprimir imágenes. 

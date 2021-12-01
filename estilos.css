@@ -404,3 +404,36 @@ img {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+div.polaroid1 {
+  width: 28%;
+  background-color: rgb(253, 58, 105);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 25px;
+  margin-bottom: 25px;
+  
+    
+}
+
+div.polaroid-text {
+  text-align: center;
+  padding: 5px;
+}
+
+div.polaroid2 {
+  width: 28%;
+  background-color: rgb(253, 58, 105);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 25px;
+  margin-bottom: 25px;
+  
+    
+}
+div.polaroid3 {
+  width: 28%;
+  background-color: rgb(253, 58, 105);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 25px;
+  margin-bottom: 25px;
+  
+    
+}
