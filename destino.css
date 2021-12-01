@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  color: #f21170;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 50px;
+  letter-spacing: 15px;
+  padding: 20px 20px 20px 20px;
+  text-align: center; }
+
+h2, h3 {
+  color: #542e71;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px; }
+
+p {
+  color: #542e71;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+  background-color: #fff3e4;
+  text-align: justify;
+  padding: 10px 30px 30px 30px;
+  margin: 20px 20px 20px 20px; }
+
+img {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 8px; }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff3e4; }
+  .flex-container img {
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 8px; }
+
+.tabla-container {
+  background-color: #f21170;
+  color: #fff3e4;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+  padding: 20px 20px 20px 20px; }
+  .tabla-container img {
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 8px; }
+
+.BurgerMenu {
+  text-align: center;
+  padding: 20px 0;
+  list-style: none;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: large;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background-color: #fb3640;
+  background-size: 100% 100%; }
+  .BurgerMenu li {
+    display: inline-block;
+    position: relative; }
+  .BurgerMenu a {
+    color: #fff3e4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
+  .BurgerMenu a:hover {
+    color: #542e71; }
+
+img {
+  width: 800px; }
+  img section {
+    width: 400px; }
+    img section article {
+      width: 200px; }
+      img section article p {
+        width: 140px; }
+
+/* Esto no me estaría funcionando */
+body {
+  color: #1b262c; }

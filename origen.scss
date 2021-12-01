@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px; }
+
+
+@import "fonts";
+@import "colores";
+
+h1{
+    color: $myPink;
+    font-family:$myHeading1;
+    font-size: 50px;
+    letter-spacing: 15px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+}
+ 
+h2, h3{
+    color: $myPurple;
+    font-family: $myHeadingsparagraph;  
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+p{
+    color: $myPurple; 
+    font-family: $myHeadingsparagraph;  
+    font-size: 20px;
+    background-color: $myCream;
+    text-align: justify;
+    padding: 10px 30px 30px 30px;
+    margin: 20px 20px 20px 20px;
+  }
+
+  img {
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 8px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: $myCream;
+    img{
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 8px;
+    }
+    
+  }
+ 
+  .tabla-container{
+    background-color: $myPink;
+    color: $myCream;
+    font-family: $myHeadingsparagraph;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    img{
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 8px;
+    }
+  }
+
+.BurgerMenu{
+    text-align: center;
+    padding: 20px 0;
+    list-style: none;
+    font-family: $myHeadingsparagraph;
+    font-size: large;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: $myCoral;
+    background-size: 100% 100%;
+    li {
+        display: inline-block;
+        position: relative;
+         
+      }
+      
+      a{
+        
+        color: $myCream;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      a:hover{
+        color: $myPurple;
+      }
+      
+  
+  }  
+
+$ancho: 400px;
+
+img{
+    width: $ancho * 2;
+    section{
+        width: $ancho;
+        article{
+            width: $ancho / 2;
+            p{
+                width: ($ancho / 2) - 60;
+            }
+        }
+    }
+
+}
+/* Esto no me estaría funcionando */
+$mobile: 400px;
+
+$tablet: 960px;
+
+$desktop: 1200px;
+
+body{
+
+@if $ancho > $mobile {
+    color: $myBlue;
+}
+@else if $ancho > $tablet {
+    color: $myYellow;
+}
+@else if $ancho > $desktop {
+    color: $myGreen;
+}
+@else {
+    color: $myBlack;
+}
+}
