@@ -362,8 +362,8 @@ img {
 }
 /* Make the image fully responsive */
 .carousel-inner img {
-  width: auto;
-  height: auto;
+  width: 600px;
+   
 }
 .container {
   position: relative;
@@ -372,7 +372,7 @@ img {
 
 .image {
   display: block;
-  width: 300px;
+  width: 380px;
   
 }
 
