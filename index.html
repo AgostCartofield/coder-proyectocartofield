@@ -5,23 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="“Fashionista es la marca de ropa femenina líder en la que encontrarás lo último en tendencias en ropa prêt-à-porter​ para la mujer de hoy">
-    <meta name="keywords" content="ropa, prêt-à-porter​, moda, fashion, tendencias, verano, primavera, estilo">
+    <meta name="keywords" content="ropa, prêt-à-porter, moda, fashion, tendencias, verano, primavera, estilo">
 
     <title>FASHIONISTA</title>
 
 </head>
 
 <body>
-    <!-- Problema con el menú hamburguesa desplegable - Sólo aparece cuando achico la pantalla a mobile pero no funciona -->
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="#">FASHIONISTA | FASHION HOUSE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -48,85 +46,136 @@
         </div>
     </nav>
     <br>
-    <div>
-        <nav>
-            <h1>FASHIONISTA | FASHION HOUSE</h1>
-            <!-- Cuando funcione el NavBar anterior, borro este -->
-            <div class="BurgerMenu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="top.html">Camisas | Remeras | Chaquetas</a></li>
-                    <li><a href="bottom.html">Pantalones | Polleras | Vestidos</a></li>
-                    <li><a href="accesories.html">Accesorios | Carteras</a></li>
-                    <li><a href="nosotros.html">Nosotros | Bolsa de Trabajo</a></li>
-                </ul>
-            </div>
-        </nav>
-
-    </div>
-    <div class="bounce-in-left">
-        <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/09/cuando-black-friday-2019.jpg" alt="blackfriday" height="400">
-    </div>
-    <div>
-        <h2>New Arrivals!</h2>
-    </div>
-    <!-- Acá va un carrusel de imágenes -->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://images.pexels.com/photos/5405623/pexels-photo-5405623.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes1">
-                <div class="carousel-caption">
-                    <p>Anticipo de Temporada</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/5405629/pexels-photo-5405629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes2">
-                <div class="carousel-caption">
-                    <p>Anticipo de Temporada</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/5405645/pexels-photo-5405645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes3">
-                <div class="carousel-caption">
-                <p>Lo nuevo en camisas y pantalones</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes4">
-                <div class="carousel-caption">
-                <p>La comodidad ante todo</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/1353503/pexels-photo-1353503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes5">
-                <div class="carousel-caption">
-                <p>Sexy y atrevida</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-    
-    <div class="container">
-        <img src="https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes6" class="image">
-        <div class="overlay">
-          <div class="text">Anticipo de temporada</div>
-        </div>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
       </div>
       
-    
-        <p class="footer-container">SUSCRIBITE A NUESTRO NEWSLETTER Y OBETNÉ UN 15% OFF EN TU PRIMERA COMPRA ONLINE!</p>
+      
+   <div>
+        <h2 class="vibrate-1">New Arrivals!</h2>
     </div>
+    <!-- Carrusel de imágenes -->
+ 
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://images.pexels.com/photos/5405623/pexels-photo-5405623.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes1" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://images.pexels.com/photos/5405629/pexels-photo-5405629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="clothes2" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://images.pexels.com/photos/5405645/pexels-photo-5405645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://images.pexels.com/photos/1353503/pexels-photo-1353503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/5405623/pexels-photo-5405623.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(1)" alt="Sunny Days">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/5405629/pexels-photo-5405629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(2)" alt="Beach, please!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/5405645/pexels-photo-5405645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(3)" alt="Strike a pose!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(4)" alt="Fun and fresh">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/1353503/pexels-photo-1353503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(5)" alt="Sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%" onclick="currentSlide(6)" alt="Florals and style">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+      
+    <div class="footer-container">
+        <a href="medidas.html">TABLA DE MEDIDAS</a>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid mt-100">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Cart</h5>
+                    </div>
+                    <div class="card-body cart">
+                        <div class="col-sm-12 empty-cart-cls text-center"> <img src="https://i.imgur.com/dCdflKN.png" width="130" height="130" class="img-fluid mb-4 mr-3">
+                            <h3><strong>Tu carrito está vacío</strong></h3>
+                            <h4>Agregar prendaS :)</h4> <a href="#" class="btn btn-primary cart-btn-transform m-3" data-abc="true">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <!-- Acá va un mapa -->
         <div>
@@ -139,11 +188,19 @@
 
         </div>
         <!-- Acá van los íconos de las redes sociales -->
-        <div>
-            <p class="footer-container">AYUDA - CONTACTO - TÉRMINOS Y CONDICIONES - TRABAJÁ CON NOSOTROS</p>
-        </div>
-
+       
+        <footer class="footer-container">
+            <a href="terminos.html"> TÉRMINOS Y CONDIONES</a>
+            <a href="preguntas.html">PREGUNTAS FRECUENTES</a>
+            <a href="nosotros.html">NOSOTROS</a>
+       
     </footer>
+    
+    
+    <script src="js/bootstrap.js"></script>
+
+
+
 </body>
 
 </html>
